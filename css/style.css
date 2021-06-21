@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+/* ****************HEADER********************** */
+header {
+  height: 82px;
+}
+
+/* ****************HEADER TOP****************** */
+.header-top {
+  display: flex;
+  background-color: #222222;
+  height: 40%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 100px 0 100px;
+}
+
+.header-top h3 {
+  color: #f3f3f3;
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+}
+.header-top li {
+  color: #f3f3f3;
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+}
+
+/* ****************HEADER BOTTOM****************** */
+
+.header-bottom {
+  display: flex;
+  background-color: #f0a83e;
+  height: 60%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 60px 0 60px;
+}
+
+.header-bottom .logo h1 {
+  display: flex;
+  align-items: center;
+}
+.narvarprincipal ul {
+  display: flex;
+}
+
+.narvarprincipal li {
+  margin: 0 20px 0 0;
+}
+.narvarprincipal a {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  text-decoration: auto;
+}
+
+/* ***************************BANER**************** */
+
+.banner {
+  height: 409px;
+  display: flex;
+  background: cyan url("/img/bowl-and-pet-daities-on-green-background1.png")
+    no-repeat center;
+  background-size: cover;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.bannerContenedor {
+  margin-right: 60px;
+  text-align: center;
+}
+.bannerContenedor p {
+  width: 345px;
+  height: 35px;
+  margin: 10px 0 10px 0;
+  padding: 8px;
+  border-radius: 5px;
+  background-color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  color: #3c2313;
+}
+.bannerContenedor h4 {
+  margin: 10px 0 10px 0;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+}
+.bannerContenedor a {
+  display: inline-block;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  padding: 0.375rem 0.75rem;
+  line-height: 1.5;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  text-decoration: auto;
+  background-color: transparent;
+  background-color: #f0a83e;
+  color: #ffffff;
+}
+
+/* ***************************PRODUCTO DESTACADO**************** */
+.ProductosDestacados {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.ProductosDestacadosP {
+  display: flex;
+  flex-direction: row;
+}
+.ProductosDestacadosP p {
+  margin-right: 15px;
+  color: #666666;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.ProductosDestacadosComederos {
+  display: flex;
+}
+.ProductosDestacadosComederos div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px 40px 40px 40px;
+}
+
+.ProductosDestacadosComederos h2 {
+  margin: 0;
+  margin: 0;
+  color: #3c2313;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+}
+.ProductosDestacadosComederos h3 {
+  margin: 0;
+  color: #f0a83e;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+/* *************FOOTER******************************** */
+
+footer {
+  height: 284px;
+}
+
+/* *************FOOTER TOP***************************** */
+.footer-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #3c2313;
+  height: 90%;
+}
+
+/* **************FOOTER TOP Redes Sociales*********** */
+
+.footer-sociales {
+  width: 50%;
+  height: 100%;
+}
+.conticonsocial {
+  display: flex;
+  align-items: center;
+}
+
+.socialIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #8a8787;
+  border-radius: 50%;
+  border: 5px solid #786960;
+  height: 50px;
+  width: 50px;
+  margin: 20px 20px 0px 60px;
+}
+.socialIcon i {
+  font-size: 30px;
+  color: white;
+}
+
+.socialinfo h2 {
+  color: white;
+  margin: 0;
+}
+
+.socialinfo h5 {
+  color: #8a8787;
+  margin: 0;
+}
+
+/* *************FOOTER TOP Logo************************* */
+.footer-logo {
+  border: var(--miborder);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 8%;
+  width: 50%;
+  height: 100%;
+}
+
+.footer-logo h2 {
+  color: white;
+}
+.footer-logo span {
+  color: #f0a83e;
+}
+
+/* ****************FOOTER BOTTOM*********************** */
+
+.footer-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #222222;
+  height: 10%;
+  /* height: 20px; */
+}
+
+.footer-bottom h6 {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  color: #ffffff;
+}
