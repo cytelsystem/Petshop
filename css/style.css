@@ -64,7 +64,7 @@ header {
 .banner {
   height: 409px;
   display: flex;
-  background: cyan url("/img/bowl-and-pet-daities-on-green-background1.png")
+  background: cyan url("../img/bowl-and-pet-daities-on-green-background1.png")
     no-repeat center;
   background-size: cover;
   justify-content: flex-end;
