@@ -53,6 +53,7 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 0 100px 0 100px;
+  height: 20px;
 }
 
 .header-top h3 {
@@ -77,6 +78,7 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 0 60px 0 60px;
+  height: 62px;
 }
 
 .header-bottom .logo h1 {
@@ -87,6 +89,11 @@ header {
 .header-bottom .logo span {
   color: var(--colorSexteario);
 }
+
+.header-bottom .Menuhamburguesa i {
+  display: none;
+}
+
 .narvarprincipal ul {
   display: flex;
 }
@@ -340,6 +347,15 @@ footer {
   .header-bottom .logo h1 {
     font-size: 1rem;
   }
+
+  .header-bottom .Menuhamburguesa i {
+    display: block;
+    color: var(--colorSexteario);
+  }
+  .header-bottom .Menuhamburguesa nav {
+    display: none;
+  }
+
   /* ****************MAIN**************** */
   .banner {
     justify-content: center;
@@ -372,5 +388,14 @@ footer {
   }
   .footer-sociales {
     margin: 3%;
+  }
+
+  .footer-logo {
+    position: relative;
+    top: 10px;
+}
+  }
+  .footer-logo h2 {
+    font-size: 15px;
   }
 }
