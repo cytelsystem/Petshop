@@ -290,6 +290,64 @@ fieldset {
   border: none;
 }
 
+/* **************FormularioAD*************** */
+
+.formularioAD {
+  margin: var(--margengeneral);
+  max-width: var(--maxw);
+  background-color: var(--ColorPrincipal);
+}
+.formularioAD .maincontenedorformAD {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1024px;
+  height: 60px;
+  padding: 15px;
+}
+.formularioAD .maincontenedorformAD .formularioADleft {
+  display: flex;
+  align-items: center;
+  color: var(--colorSexteario);
+  gap: 10px;
+}
+.formularioAD .maincontenedorformAD .formularioADleft i {
+  font-size: 30px;
+}
+.formularioAD .maincontenedorformAD .formularioADright {
+  display: flex;
+  align-items: center;
+}
+.formularioAD .maincontenedorformAD .formularioADright .formularioADrightmail {
+  width: 271px;
+  height: 40px;
+  background: var(--colorSexteario);
+  border-radius: 15px;
+  border: none;
+  padding: 15px;
+}
+
+.formularioAD
+  .maincontenedorformAD
+  .formularioADright
+  .formularioADrightsuscribirme {
+  background: var(--ColorSecundario);
+  color: var(--colorSexteario);
+
+  border: none;
+  padding: 5px;
+
+  width: 70px;
+  height: 34px;
+
+  border-radius: 15px;
+
+  font-family: var(--fon1);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 9px;
+}
+
 /* *************FOOTER******************************** */
 .footercontenedor {
   margin: var(--margengeneral);
@@ -470,6 +528,19 @@ footer {
     height: 45px;
   }
 
+  .formularioAD {
+    display: flex;
+    justify-content: space-around;
+    background-color: red;
+  }
+
+  .formularioAD .maincontenedorformAD {
+    display: flex;
+    flex-direction: column;
+    width: 414px;
+    height: 101px;
+  }
+
   /* **************FOOTER***************** */
   .footer-top {
     flex-direction: column-reverse;
@@ -482,7 +553,4 @@ footer {
     position: relative;
     top: 10px;
   }
-}
-.footer-logo h2 {
-  font-size: 15px;
 }
