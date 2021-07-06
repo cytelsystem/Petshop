@@ -38,9 +38,15 @@ a {
   text-decoration: none;
 }
 
-/* ****************HEADER********************** */
-header {
+fieldset {
+  border: 0;
+  padding: 0.01em 0 0 0;
+  margin: 0;
+  min-width: 0;
 }
+
+/* ****************HEADER********************** */
+
 .header-contenedor {
   margin: var(--margengeneral);
   max-width: var(--maxw);
@@ -221,6 +227,69 @@ header {
   font-size: 15px;
 }
 
+/* **************Formulario*************** */
+
+.mainformulario {
+  margin: var(--margengeneral);
+  max-width: var(--maxw);
+}
+.mainformulario .maincontenedorform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px 0 50px 0;
+}
+.mainformulario .maincontenedorform h2 {
+  margin-bottom: 20px;
+  color: var(--ColorSecundario);
+  font-family: var(--fon1);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.mainformulario .maincontenedorform .datos {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.mainformulario .maincontenedorform .datos input {
+  padding: 5%;
+  background-color: var(--ColorSecundario);
+  border-radius: 15px;
+  color: #ffffff !important;
+  width: 340px;
+  height: 40px;
+  border: none;
+}
+
+.mainformulario .maincontenedorform .envio {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+.mainformulario .maincontenedorform .envio input {
+  border-radius: 15px;
+}
+.mainformulario .maincontenedorform .envio .reset {
+  background-color: var(--ColorQuinteario);
+  color: var(--colorSexteario);
+  margin: 15px 0 15px 0;
+  width: 110px;
+  height: 34px;
+  border: none;
+}
+
+.mainformulario .maincontenedorform .envio .enviar {
+  background-color: var(--ColorPrincipal);
+  color: var(--colorSexteario);
+  margin: 15px 0 15px 0;
+  width: 110px;
+  height: 34px;
+  border: none;
+}
+
 /* *************FOOTER******************************** */
 .footercontenedor {
   margin: var(--margengeneral);
@@ -382,6 +451,25 @@ footer {
     flex-direction: column;
   }
 
+  /* ********Formulario********* */
+  .mainformulario .maincontenedorform h2 {
+    font-size: 40px;
+  }
+  .mainformulario .maincontenedorform form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mainformulario .maincontenedorform .envio .reset {
+    width: 199px;
+    height: 45px;
+  }
+  .mainformulario .maincontenedorform .envio .enviar {
+    width: 199px;
+    height: 45px;
+  }
+
   /* **************FOOTER***************** */
   .footer-top {
     flex-direction: column-reverse;
@@ -393,9 +481,8 @@ footer {
   .footer-logo {
     position: relative;
     top: 10px;
+  }
 }
-  }
-  .footer-logo h2 {
-    font-size: 15px;
-  }
+.footer-logo h2 {
+  font-size: 15px;
 }
