@@ -10,6 +10,7 @@
   --ColorCuarteario: #666666;
   --ColorQuinteario: #8a8787;
   --colorSexteario: #ffffff;
+  --ColorfondImg: #e0e0df;
   --backgroundImg: rgb(236, 221, 221);
   --Pshadow1: 0px 10px 7px rgb(0 0 0 / 25%);
   --Pshadow2: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -128,7 +129,8 @@ fieldset {
 .banner {
   height: 409px;
   display: flex;
-  background: cyan url("../img/bowl-and-pet-daities-on-green-background1.png")
+  background-color: var(--ColorfondImg);
+  background: url("../img/bowl-and-pet-daities-on-green-background1.png")
     no-repeat center;
   background-size: cover;
   justify-content: flex-end;
@@ -301,8 +303,6 @@ fieldset {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 1024px;
-  height: 60px;
   padding: 15px;
 }
 .formularioAD .maincontenedorformAD .formularioADleft {
@@ -414,7 +414,6 @@ footer {
   align-items: center;
   justify-content: flex-end;
   margin-right: 8%;
-  width: 50%;
   height: 100%;
 }
 
@@ -528,17 +527,32 @@ footer {
     height: 45px;
   }
 
+  /* ********FormularioAD*************** */
   .formularioAD {
     display: flex;
     justify-content: space-around;
-    background-color: red;
   }
 
   .formularioAD .maincontenedorformAD {
     display: flex;
-    flex-direction: column;
-    width: 414px;
-    height: 101px;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 15px;
+  }
+
+  .formularioAD .maincontenedorformAD .formularioADleft {
+    gap: 20px;
+    margin-bottom: 3%;
+  }
+
+  .formularioAD
+    .maincontenedorformAD
+    .formularioADright
+    .formularioADrightsuscribirme {
+    width: 100px;
+    height: 35px;
+    font-size: 15px;
   }
 
   /* **************FOOTER***************** */
